@@ -1,6 +1,6 @@
 ---
 title: "1 Testas CLI, Git, GitHub, R, Skaitiniai" #nekeisti
-author: "Vardas Pavarde" 
+author: "Rokas Krupinskas" 
 institute: "Vilniaus Universitetas (EVAF)" #nekeisti 
 date: "`r format(Sys.time(), '%Y-%m-%d %H:%M')`"#nekeisti
 output: #nekeisti
@@ -27,38 +27,38 @@ Testas susideda is keliu daliu.
 
 ## CLI
 1. (1 taskas) Kuri is komandu sukuria aplanka "DAI" darbineje direktorijoje?
-    - [ ] `mkdir DAI`
+    - [x] `mkdir DAI`
     - [ ] `touch DAI`
     - [ ] `mkdir ../DAI`
     - [ ] `cd /DAI`
     
 2. (1 taskas) Kuri is komandu sukuria aplanka "DAI/test" darbineje direktorijoje?
-    - [ ] `mkdir -p DAI/test`
+    - [x] `mkdir -p DAI/test`
     - [ ] `touch DAI/test`
     - [ ] `mkdir ../DAI/test`
     - [ ] `cd /DAI/test`
 
 3. (1 taskas) Kuri is CLI komandu parodo, kurioje direktorijoje esate?
     - [ ] `git pwd`
-    - [ ] `pwd`
+    - [x] `pwd`
     - [ ] `getwd()`
     - [ ] `dir()`
 
 4. (1 taskas) Kuri is komandu atspausdina sarasa failu esanciu darbineje CLI direktorijoje? 
-    - [ ] `ls`
+    - [x] `ls`
     - [ ] `listfiles`
     - [ ] `dirfile`
     - [ ] `lsfl`
 
 ## Git & Github
 5. (1 taskas) Kuri is komandu inicijuoja git repozitorija? 
-    - [ ] `git init`
+    - [x] `git init`
     - [ ] `git remote add`
     - [ ] `git pull`
     - [ ] `git boom`
 
 6. (1 taskas) Tarkime jus norite parsisiusti repo "https://github.com/name/folder", kuri komanda leidza tai padaryt? 
-    - [ ] `git clone https://github.com/name/folder`
+    - [x] `git clone https://github.com/name/folder`
     - [ ] `git pull https://github.com/name/folder`
     - [ ] `git pull https://github.com/name/folder master`
     - [ ] `git pull clone master https://github.com/name/folder`
@@ -66,12 +66,12 @@ Testas susideda is keliu daliu.
 7. (1 taskas) Kuri is komandu ne stage'ins failu ir ne commit'ins ju (pastaba: kai paskutinio commit nera sukurtu jokiu nauju failu)? 
     - [ ] `git add . && git commit -m "...."`
     - [ ] `git add -A && git commit -m "...."`
-    - [ ] `git add -U && commit -m "...."`
+    - [x] `git add -U && commit -m "...."`
     - [ ] `git add -am "...."`
 
 ## R 
 8. (1 taskas) Instaliuokite ir paleiskite paketa "KernSmooth" (naudodamiesi *Console*). Paleidus matysite consoleje copyright pranesima, kuris is ju teisingas? 
-    - [ ] `Copyright M. P. Wand 1997-2009`
+    - [x] `Copyright M. P. Wand 1997-2009`
     - [ ] `Copyright Github 2009-2013`
     - [ ] `Copyright Matthew Wand 1997-2009`
     - [ ] `Copyright M. P. Wand 1990-2009`
@@ -81,11 +81,11 @@ Testas susideda is keliu daliu.
     - [ ] padidino frakcijos dydi
     - [ ] sumazino frakcijos dyi
     - [ ] frakcijos dydis nepakito
-    - [ ] nepateko i parlamenta
+    - [x] nepateko i parlamenta
 
 10. (1 taskas) OECD pristatytoje atnaujintoje pasaulio ekonomikos prognozeje:  
     - [ ] OECD pagerino pasaulio ekonomikos augimo perspektyva
-    - [ ] OECD pablogino pasaulio ekonomikos augimo perspektyva
+    - [x] OECD pablogino pasaulio ekonomikos augimo perspektyva
     - [ ] Nepakeite pasaulio ekonomikos augimo perspektyvos
     - [ ] OECD apie pasaulio ekonomikos augimo perspektyva neuzsimine
 
@@ -104,8 +104,9 @@ Prezidentas, kaip zinote, turi tik labai ribotas vidaus politikos galias. Prezid
 
 str1 <- 
 "
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus nisi sed odio rhoncus semper. Nam sit amet neque ac risus hendrerit lobortis a vitae velit. Donec tincidunt sapien ligula, at tincidunt enim aliquam non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tempus ex non velit ultrices lacinia. Aenean pulvinar nisl in quam bibendum, at cursus massa auctor. Quisque posuere orci at urna molestie varius. Proin at iaculis libero. Proin consequat, mauris eu convallis elementum, tortor leo ullamcorper lectus, eu euismod odio justo id nulla. Suspendisse eget aliquam tortor. Vivamus at dolor lobortis, feugiat quam ut, porta lorem. Ut non suscipit ante, varius facilisis risus. Fusce vel varius dui. Vestibulum ut ullamcorper urna. Phasellus iaculis eget nisi ac dictum. Phasellus consequat felis enim, ac ultricies libero vulputate vitae. Integer mollis sollicitudin volutpat. Sed et maximus lectus. Vestibulum vitae diam et odio pellentesque fermentum. Nunc non felis.
+Sekantis Lietuvos Prezidentas susidurs su ivairiomiais issukiais, pradedant uzsienio politika, t.y bendravimas su Rusija ir Europos Sajungos salimis, prezidentas kaip ir atstovauja tautai, aisku yra ir uzsienio reikalu ministrai ir t.t, bet tai ka pasako pats prezidentas, nulemia nemazai.Ta sakant, svarbiausias akcentas cia butu santykiai su kitomis valstybemis, kurie jau yra itempti ir taip. Nemaza problema yra ir tai, jog yra reikalingas Seimo pritarimas, norint atlikti pvz. atleisti MP( ministra pirmininka), todel bus reikalingas geras sutarimas su Seimu(?). Kalbant apie tarptautinius santykius. didelis issukis naujajam prezidentui bus itikinti kaimynine valstybe Baltarusija nepriimti Rusijos kariu, nes aisku nuo to butu blogiau ir Lietuvai, nes jei ileis i Baltarusija, tai nores ir i Lietuva ir taip toliau ir tada santykiai gali tapti labiau itempti. Taip pat prezidentas tures sudaryti geras salygas atvykti amerikieciu kariams i Lietuva ir uztikrinti glaudzius rysius su NATO. Rupintis saugumu salies tuo paciu ir toliau stengtis integruoti Lietuva su kitomis salimis, palaikant glaudzius rysius. 
+Vakarai turi laikytis kartu, kad galetu islaikyti diplomatini ir ekonomini spaudima Kinijai,kuri nori uztikrinti infrastruktura visame pasaulyje savo vienos juostos- vieno kelio iniciatyva, bet visa tai darant reikia siekti isvengti nebutino konflikto.
+Manau uzteks ir apie uzsieni pakalbeti(nors ir nesamones galbut).(-14 words from total)
 
 "
 sapply(strsplit(str1," "),length)
@@ -127,24 +128,22 @@ sapply(strsplit(str1," "),length)
 
 # importuokite duomenis i R, importuotus duomenis priskirkite objektui census <- ....
 
+#Neleido su census pavadinimu padaryti.Studento pastebejimas cia "Error in file(file, "rt") : cannot open connection.
+a <- read.csv("census.csv")
 # atspausdinkite virsutines 8 eilutes ir pirmus 4 stulpelius
-
-
+a[1:8,1:4]
 # atspausdinkite apatines 4 eilutes ir 5, 6, 7, 8 stulpelius  
-
-
+n <- nrow(census)
+m <- n-3
+a[n:m,5:8]
 # apskaiciuokite X39 stulpelio vidurki
-
-
+mean(a$X39, na.rm = TRUE)
 # apskaiciuokite X39 stulpelio mediana
-
-
+median(a$X39, na.rm = TRUE)
 # apskaiciuokite X39 stulpelio miniuma
-
-
+min(a$X39, na.rm = TRUE)
 # apskaiciuokite X39 stulpelio maksimuma 
-
-
+max(a$X39, na.rm = TRUE)
 ```
 
 
